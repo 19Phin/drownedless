@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "drownedless",
+  "version": "${version}",
+  "name": "Drownedless",
+  "description": "Makes drowned not spawn with sky access.",
+  "authors": [
+    "Dialingspoon"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/drownedless/icon.png",
+  "environment": "*",
+  "mixins": [
+    "drownedless.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.13",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

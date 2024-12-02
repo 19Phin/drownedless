@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.dialingspoon.drownedless.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "DrownedMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
